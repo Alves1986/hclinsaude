@@ -96,3 +96,7 @@ Os cards da equipe agora aparecem como elementos clicáveis com indicação “V
 ## Skeleton loading da equipe — 20/08/2026
 
 As fotos das profissionais agora exibem um placeholder shimmer enquanto carregam, fazem transição suave para a imagem pronta e apresentam placeholder de foto reservada quando o asset não está disponível. Erros de carregamento não deixam espaços quebrados. O comportamento respeita `prefers-reduced-motion`; TypeScript e build foram aprovados e a seção permanece estável no layout responsivo.
+
+## Refinamento do mapa — 20/08/2026
+
+A seção de localização foi harmonizada com um mapa mais compacto: largura máxima de 1080px, altura de 280px no mobile, 320px em telas intermediárias e 360px no desktop. O iframe do Google Maps continua interativo e com lazy loading. TypeScript, build e revisão visual foram concluídos.

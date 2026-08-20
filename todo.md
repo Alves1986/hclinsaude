@@ -81,3 +81,8 @@
 - [x] Exibir placeholder skeleton enquanto cada foto profissional carrega.
 - [x] Fazer a transição suave do skeleton para a imagem carregada e tratar erro de imagem.
 - [x] Validar desktop, mobile, acessibilidade, movimento reduzido e build.
+
+## Refinamento do mapa
+
+- [x] Reduzir a altura do mapa e harmonizar sua proporção com o bloco de endereço.
+- [x] Validar interatividade, desktop, mobile e build após o ajuste.

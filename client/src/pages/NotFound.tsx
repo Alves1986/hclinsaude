@@ -1,49 +1,21 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { AlertCircle, Home } from "lucide-react";
-import { useLocation } from "wouter";
+import { ArrowLeft, MessageCircle } from "lucide-react";
 
+// HCLIN / Cuidado em Camadas: páginas utilitárias também preservam marfim, azul-petróleo, dourado e orientação humana.
 export default function NotFound() {
-  const [, setLocation] = useLocation();
-
-  const handleGoHome = () => {
-    setLocation("/");
-  };
-
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100">
-      <Card className="w-full max-w-lg mx-4 shadow-lg border-0 bg-white/80 backdrop-blur-sm">
-        <CardContent className="pt-8 pb-8 text-center">
-          <div className="flex justify-center mb-6">
-            <div className="relative">
-              <div className="absolute inset-0 bg-red-100 rounded-full animate-pulse" />
-              <AlertCircle className="relative h-16 w-16 text-red-500" />
-            </div>
-          </div>
-
-          <h1 className="text-4xl font-bold text-slate-900 mb-2">404</h1>
-
-          <h2 className="text-xl font-semibold text-slate-700 mb-4">
-            Page Not Found
-          </h2>
-
-          <p className="text-slate-600 mb-8 leading-relaxed">
-            Sorry, the page you are looking for doesn't exist.
-            <br />
-            It may have been moved or deleted.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Button
-              onClick={handleGoHome}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
-            >
-              <Home className="w-4 h-4 mr-2" />
-              Go Home
-            </Button>
-          </div>
-        </CardContent>
-      </Card>
-    </div>
+    <main className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#f7f4ed] px-5 text-[#17313a]">
+      <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full border border-[#c7a96b]/45" />
+      <div className="absolute -bottom-28 -left-20 h-72 w-72 rounded-full border border-[#0f4c5c]/20" />
+      <div className="relative w-full max-w-xl rounded-[32px] border border-[#17313a]/10 bg-[#f7f4ed]/85 p-8 text-center shadow-[0_24px_80px_rgba(23,49,58,.10)] backdrop-blur sm:p-12">
+        <img src="/manus-storage/hclin-mark_6bbd5686.png" alt="Símbolo H+" className="mx-auto h-16 w-16 object-contain" />
+        <p className="mt-7 text-[10px] font-bold uppercase tracking-[0.28em] text-[#9d8152]">HCLIN / caminho não encontrado</p>
+        <h1 className="mt-5 font-display text-6xl leading-none tracking-[-0.05em] text-[#0f4c5c]">Vamos voltar?</h1>
+        <p className="mx-auto mt-5 max-w-sm text-sm leading-7 text-[#17313a]/65">Esta página não está disponível, mas o cuidado continua por perto. Retorne ao início ou fale com a clínica.</p>
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="/" className="inline-flex items-center gap-2 rounded-full bg-[#0f4c5c] px-5 py-3 text-xs font-bold uppercase tracking-[0.16em] text-white transition hover:-translate-y-0.5"><ArrowLeft size={15} /> Voltar ao início</a>
+          <a href="https://wa.me/5542988095848?text=Olá%2C%20HCLIN!%20Preciso%20de%20ajuda%20para%20encontrar%20uma%20página." target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-[#25D366] px-5 py-3 text-xs font-bold uppercase tracking-[0.16em] text-[#128c4a] transition hover:-translate-y-0.5"><MessageCircle size={15} /> WhatsApp</a>
+        </div>
+      </div>
+    </main>
   );
 }

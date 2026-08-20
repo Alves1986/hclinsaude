@@ -20,3 +20,9 @@
 - [x] Adicionar carrossel animado preparado para avaliações reais/autorizadas; nenhum testemunho fictício foi criado.
 - [x] Organizar, subir e enquadrar as imagens dos profissionais com tratamento mais profissional e responsivo.
 - [x] Validar todas as rotas, acessibilidade, mobile, smooth scroll, carrossel e build.
+
+## Ajuste da seção de convênios
+
+- [x] Remover a imagem da seção de convênios.
+- [x] Implementar carrossel horizontal looping com os convênios.
+- [x] Validar pausa, responsividade, acessibilidade e build.

@@ -56,3 +56,7 @@ O material fornecido também identificou os convênios GRAM, Sindicato dos Traba
 A navegação recebeu smooth scroll com compensação do cabeçalho fixo e suporte a prefers-reduced-motion. Foi adicionada uma seção de carrossel preparada para depoimentos reais. Para respeitar a política de não fabricar avaliações, os cartões atuais são placeholders editoriais e instruem a substituição por relatos reais e autorizados antes da publicação.
 
 Build, TypeScript e revisão visual desktop/mobile concluídos sem erros de compilação.
+
+## Ajuste da seção de convênios — 20/08/2026
+
+A imagem institucional da seção de convênios foi removida. Os oito convênios foram convertidos em cartões horizontais duplicados para criar um loop contínuo: GRAM, Sindicato dos Trabalhadores, CIM Saúde, Prever, Med-Prev, Tamoyo Prev, Monte Alegre e Grebserv. O movimento pausa ao passar o cursor ou ao receber foco, e a preferência `prefers-reduced-motion` reduz as animações. A seção foi revisada em desktop e mobile; TypeScript e build foram aprovados.

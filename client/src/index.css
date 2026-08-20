@@ -48,6 +48,9 @@
 
 @keyframes fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes marquee-loop { from { transform: translateX(0); } to { transform: translateX(calc(-50% - .375rem)); } }
+.marquee-track { animation: marquee-loop 34s linear infinite; }
+.marquee-track:hover, .marquee-track:focus-within { animation-play-state: paused; }
 .animate-fade-up { animation: fade-up .65s cubic-bezier(.23,1,.32,1) both; }
 .animate-fade-in { animation: fade-in .9s cubic-bezier(.23,1,.32,1) .1s both; }
 

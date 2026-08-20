@@ -117,3 +117,9 @@
 - [x] Mapear stack, rotas, integrações e regras atuais do sistema.
 - [x] Criar `CLAUDE.md` na raiz com instruções para futuras alterações.
 - [x] Revisar o documento e confirmar que ele não expõe segredos ou dados sensíveis.
+
+## Encerramento provisório
+
+- [ ] Verificar o diff final e o remoto GitHub.
+- [ ] Enviar a versão com `CLAUDE.md` para a branch `main`.
+- [ ] Confirmar o commit remoto e deixar o projeto encerrado por enquanto.

@@ -92,3 +92,7 @@ Oito retratos foram editados para remover textos, selos, telefones, endereços e
 ## Modal e interação da equipe — 20/08/2026
 
 Os cards da equipe agora aparecem como elementos clicáveis com indicação “Ver perfil”, foco visível e zoom suave na foto ao passar o mouse ou focar pelo teclado. O navegador confirmou a abertura do modal com retrato, nome, função, biografia, horário de atendimento e CTA para WhatsApp. O modal pode ser fechado pelo botão de fechar, pelo clique fora do conteúdo e pela tecla Escape; a rolagem do body é bloqueada enquanto ele está aberto.
+
+## Skeleton loading da equipe — 20/08/2026
+
+As fotos das profissionais agora exibem um placeholder shimmer enquanto carregam, fazem transição suave para a imagem pronta e apresentam placeholder de foto reservada quando o asset não está disponível. Erros de carregamento não deixam espaços quebrados. O comportamento respeita `prefers-reduced-motion`; TypeScript e build foram aprovados e a seção permanece estável no layout responsivo.

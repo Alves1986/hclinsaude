@@ -83,3 +83,19 @@
 @media (prefers-reduced-motion: reduce) {
   .animate-modal-in { animation: none; }
 }
+
+/* HCLIN / Equipe: placeholder de carregamento das fotos, com movimento discreto e acessível. */
+@keyframes hclin-skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(105deg, #dce5e1 20%, #f7f4ed 38%, #dce5e1 56%);
+  background-size: 220% 100%;
+  animation: hclin-skeleton-shimmer 1.4s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-shimmer { animation: none; background: #dce5e1; }
+}

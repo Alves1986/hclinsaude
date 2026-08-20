@@ -75,3 +75,9 @@
 - [x] Tornar os cards da equipe clicáveis e abrir modal acessível com foco e fechamento por teclado.
 - [x] Exibir biografia e horários confirmados; usar “a confirmar” onde a clínica ainda não forneceu dados oficiais.
 - [x] Validar modal em desktop/mobile, foco, fechamento, WhatsApp e build.
+
+## Skeleton loading da equipe
+
+- [x] Exibir placeholder skeleton enquanto cada foto profissional carrega.
+- [x] Fazer a transição suave do skeleton para a imagem carregada e tratar erro de imagem.
+- [x] Validar desktop, mobile, acessibilidade, movimento reduzido e build.

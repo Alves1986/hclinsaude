@@ -105,3 +105,9 @@
 - [x] Remover Dicas, Convênios, Avaliações e FAQ da navegação principal, mantendo acesso contextual na página.
 - [x] Aplicar a mesma simplificação ao menu mobile sem perder acessibilidade.
 - [x] Validar links, rolagem suave, desktop, mobile e build.
+
+## Ajuste da primeira dobra
+
+- [x] Reequilibrar a altura da hero para ocupar melhor a tela inicial.
+- [x] Ajustar o espaçamento inferior para evitar que a seção seguinte apareça cortada ou invada a hero.
+- [x] Validar desktop, mobile, contraste, CTA e build.

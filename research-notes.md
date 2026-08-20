@@ -108,3 +108,7 @@ O deslocamento das âncoras foi ajustado de 88px para 104px e aplicado também c
 ## Navegação mais limpa — 20/08/2026
 
 O cabeçalho foi reduzido para cinco abas essenciais: A HCLIN, Especialidades, Equipe, Localização e Contato. Dicas, Convênios, Avaliações e FAQ continuam disponíveis dentro da página e por CTAs contextuais, mas deixaram de ocupar a navegação principal. A composição foi revisada em desktop e a rota de privacidade permaneceu íntegra.
+
+## Primeira dobra da hero — 20/08/2026
+
+A hero foi reposicionada para subir o conteúdo e ocupar melhor a altura útil da viewport após o header fixo. A seção agora usa `min-height: calc(100svh - 76px)`, com padding superior reduzido no desktop e espaçamento inferior mais controlado. A revisão visual confirmou melhor enquadramento desktop e mobile, sem a seção seguinte invadir a primeira dobra.

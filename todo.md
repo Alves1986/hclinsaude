@@ -11,3 +11,12 @@
 - [x] Coletar somente imagens públicas e profissionais identificáveis com segurança. Os nomes públicos encontrados foram registrados; fotos individuais aguardam arquivos autorizados.
 - [x] Atualizar a seção de equipe e os assets apenas com informações confirmadas. A seção agora exibe Veridiana Silveira Wojcickoski, Taise Pinheiro e Gabrielle Alves, mantendo placeholders de foto.
 - [ ] Validar e salvar uma nova versão do projeto após a atualização.
+
+## Nova evolução solicitada
+
+- [x] Implementar smooth scroll nos links do cabeçalho e menu mobile.
+- [x] Ampliar a equipe com os profissionais identificados nas imagens fornecidas, incluindo Hellen Fernanda e demais nomes legíveis.
+- [x] Adicionar seção de convênios com os convênios visíveis no material fornecido, mantendo aviso para confirmar a cobertura vigente.
+- [x] Adicionar carrossel animado preparado para avaliações reais/autorizadas; nenhum testemunho fictício foi criado.
+- [x] Organizar, subir e enquadrar as imagens dos profissionais com tratamento mais profissional e responsivo.
+- [x] Validar todas as rotas, acessibilidade, mobile, smooth scroll, carrossel e build.

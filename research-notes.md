@@ -46,3 +46,13 @@ A página também carregou miniaturas públicas adicionais do perfil, incluindo 
 Embora a imagem principal da publicação tenha sido renderizada no navegador, o mecanismo de salvamento por coordenada não encontrou um elemento de imagem nos pontos tentados. O asset não foi incorporado ao site por essa via. A alternativa segura é receber a imagem original enviada pela clínica ou usar um download público autorizado em uma etapa posterior.
 
 A publicação `Dblmj7HhOcT` foi aberta diretamente no navegador e confirmou uma peça pública da H+ Clínica Integrada sobre terapia, autoconhecimento, gestão de emoções e prevenção em saúde mental. O post não informa o nome da psicóloga responsável no texto principal; portanto, não atribuir automaticamente a publicação a Luciene Marques apenas com base em comentários ou snippets de busca.
+
+## Evolução da landing page — 20/08/2026
+
+Foram incorporadas imagens fornecidas pela clínica para Veridiana Silveira Wojcickoski, Maira de Souza Santos, Andrea Arioli Natel, Andréia Regina Lopes, Rebeca Hostapchn, Kamili Schitcoski, Carla Resende e Hellen Fernanda. Taise Pinheiro e Gabrielle Alves permanecem com placeholders, pois não foram fornecidos retratos correspondentes nesta etapa.
+
+O material fornecido também identificou os convênios GRAM, Sindicato dos Trabalhadores, CIM Saúde, Prever, Med-Prev, Tamoyo Prev, Monte Alegre e Grebserv. A página apresenta esses nomes com aviso de confirmação de cobertura por profissional, procedimento e plano.
+
+A navegação recebeu smooth scroll com compensação do cabeçalho fixo e suporte a prefers-reduced-motion. Foi adicionada uma seção de carrossel preparada para depoimentos reais. Para respeitar a política de não fabricar avaliações, os cartões atuais são placeholders editoriais e instruem a substituição por relatos reais e autorizados antes da publicação.
+
+Build, TypeScript e revisão visual desktop/mobile concluídos sem erros de compilação.

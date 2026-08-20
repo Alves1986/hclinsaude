@@ -53,3 +53,11 @@
 - [x] Carregar o script do Umami somente após consentimento para analytics.
 - [x] Aplicar lazy loading nas imagens da equipe, convênios e demais imagens não críticas.
 - [x] Validar persistência da escolha, acessibilidade, carregamento e build.
+
+## Política e preferências de cookies
+
+- [x] Criar rota pública de Política de Privacidade e Cookies em português.
+- [x] Vincular a política ao banner de consentimento.
+- [x] Adicionar entrada animada suave no banner, respeitando movimento reduzido.
+- [x] Adicionar no rodapé o controle para revisar ou revogar preferências.
+- [x] Validar rota, acessibilidade, persistência e build.

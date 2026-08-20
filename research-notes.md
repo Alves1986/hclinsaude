@@ -80,3 +80,7 @@ Foi criado o evento Umami `whatsapp_conversion`, com o parâmetro anônimo `sour
 ## Validação de consentimento e performance — 20/08/2026
 
 Em uma sessão limpa, o banner apareceu com as opções Aceitar analytics e Recusar, o script Umami não estava presente antes da escolha e foram encontrados 11 elementos `img[loading="lazy"]`. Após aceitar, a escolha `accepted` foi persistida em `localStorage`, o script `hclin-analytics-script` foi inserido e `window.umami.track` ficou disponível; o banner desapareceu. O consentimento é necessário antes do analytics, enquanto a página permanece utilizável sem aceitar.
+
+## Validação da política e preferências — 20/08/2026
+
+A rota `/privacidade` carregou corretamente com título, seções de cookies essenciais, analytics opcional, controle de escolha, dados tratados, links de terceiros e contato. Na landing page, o rodapé exibiu “Preferências de cookies”; ao acioná-lo, a preferência foi removida e o banner voltou a ser apresentado para nova escolha. A página manteve a navegação e os canais de contato disponíveis.

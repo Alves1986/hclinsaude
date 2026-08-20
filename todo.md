@@ -40,3 +40,9 @@
 - [x] Criar seção de Dicas de Saúde com orientações gerais e aviso educativo.
 - [x] Adicionar botão Voltar ao topo com aparição durante a rolagem e suporte acessível.
 - [x] Validar responsividade, teclado, movimento reduzido e build.
+
+## Rastreamento de conversões
+
+- [x] Criar helper de evento para registrar cliques que abrem o WhatsApp no analytics existente.
+- [x] Instrumentar botão flutuante, formulário, CTAs de especialidades, convênios, equipe e demais links de contato.
+- [x] Validar o evento no navegador sem enviar dados pessoais, além de validar responsividade e build.

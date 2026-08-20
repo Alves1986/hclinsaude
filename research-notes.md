@@ -84,3 +84,7 @@ Em uma sessão limpa, o banner apareceu com as opções Aceitar analytics e Recu
 ## Validação da política e preferências — 20/08/2026
 
 A rota `/privacidade` carregou corretamente com título, seções de cookies essenciais, analytics opcional, controle de escolha, dados tratados, links de terceiros e contato. Na landing page, o rodapé exibiu “Preferências de cookies”; ao acioná-lo, a preferência foi removida e o banner voltou a ser apresentado para nova escolha. A página manteve a navegação e os canais de contato disponíveis.
+
+## Limpeza visual dos retratos da equipe — 20/08/2026
+
+Oito retratos foram editados para remover textos, selos, telefones, endereços e elementos gráficos sobrepostos, preservando os rostos, poses, roupas, iluminação e identidade visual dos retratos. Os novos assets foram enviados ao armazenamento persistente e as referências da equipe foram atualizadas. A seção foi revisada em desktop e mobile; os cards exibem retratos limpos, sem tipografia incorporada nas imagens. TypeScript e build foram aprovados.

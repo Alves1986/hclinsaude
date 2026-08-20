@@ -32,14 +32,14 @@ const specialties: Specialty[] = [
 ];
 
 const team = [
-  { name: "Veridiana Silveira Wojcickoski", role: "Psicopedagoga", image: "/manus-storage/veridiana_2469b2b9.png", note: "Atendimento psicopedagógico, inclusive para pessoas com TEA." },
-  { name: "Maira de Souza Santos", role: "Psicóloga", image: "/manus-storage/meira_9614a40e.png", note: "Trabalho com Terapia Sistêmica." },
-  { name: "Andrea Arioli Natel", role: "Psicóloga", image: "/manus-storage/andrea_98975ae5.png", note: "Trabalho com Terapia Cognitivo-Comportamental." },
-  { name: "Andréia Regina Lopes", role: "Psicóloga", image: "/manus-storage/andreia_9aa53ca6.png", note: "Trabalho com a Análise do Comportamento." },
-  { name: "Rebeca Hostapchn", role: "Psicóloga · CRP 08/43450", image: "/manus-storage/rebeca_7369ee23.png", note: "Terapia Cognitivo-Comportamental e foco em mudanças práticas." },
-  { name: "Kamili Schitcoski", role: "Psicóloga especialista em TEA", image: "/manus-storage/kamily_1a70e6cd.png", note: "Atendimento especializado em TEA." },
-  { name: "Carla Resende", role: "Podóloga", image: "/manus-storage/carla_6ad8cb6c.png", note: "Podologia preventiva e cuidado com os pés." },
-  { name: "Hellen Fernanda", role: "Psicóloga · CRP 08/43808", image: "/manus-storage/hellen_ca3ecd63.png", note: "Saúde mental e acompanhamento psicológico." },
+  { name: "Veridiana Silveira Wojcickoski", role: "Psicopedagoga", image: "/manus-storage/edited-veridiana_df798664.png", note: "Atendimento psicopedagógico, inclusive para pessoas com TEA." },
+  { name: "Maira de Souza Santos", role: "Psicóloga", image: "/manus-storage/edited-meira_384a6902.png", note: "Trabalho com Terapia Sistêmica." },
+  { name: "Andrea Arioli Natel", role: "Psicóloga", image: "/manus-storage/edited-andrea_eed4069a.png", note: "Trabalho com Terapia Cognitivo-Comportamental." },
+  { name: "Andréia Regina Lopes", role: "Psicóloga", image: "/manus-storage/edited-andreia_8cfa7a34.png", note: "Trabalho com a Análise do Comportamento." },
+  { name: "Rebeca Hostapchn", role: "Psicóloga · CRP 08/43450", image: "/manus-storage/edited-rebeca_99fcd0c0.png", note: "Terapia Cognitivo-Comportamental e foco em mudanças práticas." },
+  { name: "Kamili Schitcoski", role: "Psicóloga especialista em TEA", image: "/manus-storage/edited-kamily_94e1484e.png", note: "Atendimento especializado em TEA." },
+  { name: "Carla Resende", role: "Podóloga", image: "/manus-storage/edited-carla_ede613ff.png", note: "Podologia preventiva e cuidado com os pés." },
+  { name: "Hellen Fernanda", role: "Psicóloga · CRP 08/43808", image: "/manus-storage/edited-hellen_5598096d.png", note: "Saúde mental e acompanhamento psicológico." },
   { name: "Taise Pinheiro", role: "Psicóloga · CRP 03/35040", note: "Nome identificado em publicação pública. Foto e bio oficial aguardam confirmação." },
   { name: "Gabrielle Alves", role: "Fonoaudióloga", note: "Nome associado a publicação pública de Fonoaudiologia. Foto e bio oficial aguardam confirmação." },
 ];

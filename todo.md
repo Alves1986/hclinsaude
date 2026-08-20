@@ -61,3 +61,10 @@
 - [x] Adicionar entrada animada suave no banner, respeitando movimento reduzido.
 - [x] Adicionar no rodapé o controle para revisar ou revogar preferências.
 - [x] Validar rota, acessibilidade, persistência e build.
+
+## Limpeza visual das fotos da equipe
+
+- [x] Identificar os arquivos originais das profissionais usados na landing page.
+- [x] Remover textos, selos e informações sobrepostas preservando rostos, poses, fundo e identidade HCLIN.
+- [x] Substituir os assets no armazenamento do projeto e atualizar referências se necessário.
+- [x] Validar a seção de equipe em desktop, mobile e build.

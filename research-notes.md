@@ -24,3 +24,6 @@
 A página principal foi verificada em captura de página inteira. A hierarquia editorial, a paleta marfim/azul-petróleo/dourado, os recortes em arco, o fluxo de contato e a trilha numerada de especialidades estão consistentes. A rota 404 foi remodelada em português com o selo H+, acesso de retorno e WhatsApp, sem a aparência genérica do scaffold.
 
 A recomendação de imagem clínica mais explícita foi atendida parcialmente com ambientes de recepção e consulta, sem pessoas identificáveis ou promessas. Os dados de profissionais individuais permanecem não inventados porque não foram confirmados em fonte pública acessível.
+
+## Revisão das novas funcionalidades
+A seção de equipe foi verificada em desktop e mobile com três cards de placeholders para foto, nome, função e observação editável. O FAQ aparece como uma trilha de perguntas com abertura e fechamento animados, foco visível e atributos `aria-expanded`/`aria-controls`. O botão flutuante verde do WhatsApp permanece fixo no canto inferior e reduz o texto em telas pequenas para preservar espaço.

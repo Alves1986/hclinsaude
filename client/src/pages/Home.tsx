@@ -12,9 +12,9 @@ const specialties = [
 ];
 
 const teamPlaceholders = [
-  { name: "Nome do profissional", role: "Especialidade / função", note: "Substitua esta foto e este texto no código quando tiver os dados oficiais." },
-  { name: "Nome do profissional", role: "Especialidade / função", note: "Espaço reservado para apresentação da equipe." },
-  { name: "Nome do profissional", role: "Especialidade / função", note: "Adicione aqui uma breve descrição profissional." },
+  { name: "Veridiana Silveira Wojcickoski", role: "Psicopedagoga", note: "Nome identificado em publicação pública da H+ Clínica Integrada. Adicione a foto autorizada e a apresentação oficial." },
+  { name: "Taise Pinheiro", role: "Psicóloga · CRP 03/35040", note: "Identificação pública indexada em conteúdo da clínica. Confirme o registro e substitua pela foto autorizada." },
+  { name: "Gabrielle Alves", role: "Fonoaudióloga", note: "Nome associado a publicação pública de Fonoaudiologia. Adicione a foto autorizada e a bio oficial." },
 ];
 
 const faqs = [

@@ -111,3 +111,9 @@
 - [x] Reequilibrar a altura da hero para ocupar melhor a tela inicial.
 - [x] Ajustar o espaçamento inferior para evitar que a seção seguinte apareça cortada ou invada a hero.
 - [x] Validar desktop, mobile, contraste, CTA e build.
+
+## Documentação do sistema
+
+- [x] Mapear stack, rotas, integrações e regras atuais do sistema.
+- [x] Criar `CLAUDE.md` na raiz com instruções para futuras alterações.
+- [x] Revisar o documento e confirmar que ele não expõe segredos ou dados sensíveis.

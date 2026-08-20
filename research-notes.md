@@ -76,3 +76,7 @@ Os cards de especialidades receberam hover mais expressivo com elevação, borda
 ## Rastreamento de conversões — 20/08/2026
 
 Foi criado o evento Umami `whatsapp_conversion`, com o parâmetro anônimo `source`. O evento é disparado no formulário de contato, no botão flutuante, no CTA do menu mobile, nas CTAs de especialidades, nos cards e CTA de convênios, no link de dúvida sobre a clínica e no WhatsApp do rodapé. Nenhum nome, mensagem ou dado preenchido pelo paciente é enviado ao analytics. O navegador confirmou que `window.umami.track` está disponível e aceitou um evento controlado de validação. TypeScript e build foram aprovados.
+
+## Validação de consentimento e performance — 20/08/2026
+
+Em uma sessão limpa, o banner apareceu com as opções Aceitar analytics e Recusar, o script Umami não estava presente antes da escolha e foram encontrados 11 elementos `img[loading="lazy"]`. Após aceitar, a escolha `accepted` foi persistida em `localStorage`, o script `hclin-analytics-script` foi inserido e `window.umami.track` ficou disponível; o banner desapareceu. O consentimento é necessário antes do analytics, enquanto a página permanece utilizável sem aceitar.

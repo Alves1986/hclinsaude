@@ -46,3 +46,10 @@
 - [x] Criar helper de evento para registrar cliques que abrem o WhatsApp no analytics existente.
 - [x] Instrumentar botão flutuante, formulário, CTAs de especialidades, convênios, equipe e demais links de contato.
 - [x] Validar o evento no navegador sem enviar dados pessoais, além de validar responsividade e build.
+
+## Privacidade e performance
+
+- [x] Criar banner de consentimento com aceitar, recusar e revisão da preferência de analytics.
+- [x] Carregar o script do Umami somente após consentimento para analytics.
+- [x] Aplicar lazy loading nas imagens da equipe, convênios e demais imagens não críticas.
+- [x] Validar persistência da escolha, acessibilidade, carregamento e build.

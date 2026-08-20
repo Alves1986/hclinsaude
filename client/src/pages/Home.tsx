@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ArrowUpRight, Check, ChevronRight, Instagram, MapPin, Menu, MessageCircle, Phone, X } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5542988095848";
+const WHATSAPP_NUMBER = "5542988676700";
 const WHATSAPP_BASE = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 const specialties = [

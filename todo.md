@@ -120,6 +120,13 @@
 
 ## Encerramento provisório
 
-- [ ] Verificar o diff final e o remoto GitHub.
-- [ ] Enviar a versão com `CLAUDE.md` para a branch `main`.
-- [ ] Confirmar o commit remoto e deixar o projeto encerrado por enquanto.
+- [x] Verificar o diff final e o remoto GitHub.
+- [x] Enviar a versão com `CLAUDE.md` para a branch `main`.
+- [x] Confirmar o commit remoto e deixar o projeto encerrado por enquanto.
+
+## Favicon e deploy Vercel
+
+- [x] Diagnosticar por que a Vercel está exibindo ou tentando executar `server/index.ts`.
+- [x] Adicionar favicon com o símbolo H+ da clínica.
+- [x] Configurar o build estático para a Vercel usar `dist/public` e não o servidor Express.
+- [x] Validar build, favicon, rotas e enviar a correção ao GitHub.

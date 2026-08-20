@@ -112,3 +112,7 @@ O cabeçalho foi reduzido para cinco abas essenciais: A HCLIN, Especialidades, E
 ## Primeira dobra da hero — 20/08/2026
 
 A hero foi reposicionada para subir o conteúdo e ocupar melhor a altura útil da viewport após o header fixo. A seção agora usa `min-height: calc(100svh - 76px)`, com padding superior reduzido no desktop e espaçamento inferior mais controlado. A revisão visual confirmou melhor enquadramento desktop e mobile, sem a seção seguinte invadir a primeira dobra.
+
+## Favicon e deploy Vercel — 20/08/2026
+
+O símbolo H+ foi convertido para um favicon PNG leve em `client/public/favicon.png` e referenciado no `client/index.html`. Foi criado `vercel.json` com framework Vite, `pnpm vite build`, saída `dist/public` e rewrite para `index.html`, evitando que a Vercel tente servir ou executar `server/index.ts`. `pnpm check` e o build estático foram validados; `dist/public/favicon.png` e `dist/public/index.html` estão presentes.

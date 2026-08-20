@@ -104,3 +104,7 @@ A seção de localização foi harmonizada com um mapa mais compacto: largura m�
 ## Navegação com header fixo — 20/08/2026
 
 O deslocamento das âncoras foi ajustado de 88px para 104px e aplicado também como `scroll-margin-top` nas seções com ID. A navegação para Localização foi verificada no navegador: o conteúdo da seção inicia abaixo do header, sem sobreposição do título pela barra fixa.
+
+## Navegação mais limpa — 20/08/2026
+
+O cabeçalho foi reduzido para cinco abas essenciais: A HCLIN, Especialidades, Equipe, Localização e Contato. Dicas, Convênios, Avaliações e FAQ continuam disponíveis dentro da página e por CTAs contextuais, mas deixaram de ocupar a navegação principal. A composição foi revisada em desktop e a rota de privacidade permaneceu íntegra.

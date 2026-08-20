@@ -95,6 +95,13 @@
 
 ## Sincronização com GitHub
 
-- [ ] Verificar o repositório remoto Alves1986/hclinsaude e a branch padrão.
-- [ ] Criar commit com a versão atual do projeto.
-- [ ] Enviar o commit para o GitHub e confirmar a referência remota.
+- [x] Verificar o repositório remoto Alves1986/hclinsaude e a branch padrão.
+- [x] Criar commit com a versão atual do projeto.
+- [x] Enviar o commit para o GitHub e confirmar a referência remota.
+
+## Navegação mais limpa
+
+- [x] Reduzir o cabeçalho às abas essenciais: A HCLIN, Especialidades, Equipe, Localização e Contato.
+- [x] Remover Dicas, Convênios, Avaliações e FAQ da navegação principal, mantendo acesso contextual na página.
+- [x] Aplicar a mesma simplificação ao menu mobile sem perder acessibilidade.
+- [x] Validar links, rolagem suave, desktop, mobile e build.

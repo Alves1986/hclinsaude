@@ -60,3 +60,11 @@ Build, TypeScript e revisão visual desktop/mobile concluídos sem erros de comp
 ## Ajuste da seção de convênios — 20/08/2026
 
 A imagem institucional da seção de convênios foi removida. Os oito convênios foram convertidos em cartões horizontais duplicados para criar um loop contínuo: GRAM, Sindicato dos Trabalhadores, CIM Saúde, Prever, Med-Prev, Tamoyo Prev, Monte Alegre e Grebserv. O movimento pausa ao passar o cursor ou ao receber foco, e a preferência `prefers-reduced-motion` reduz as animações. A seção foi revisada em desktop e mobile; TypeScript e build foram aprovados.
+
+## Evolução institucional — especialidades, redes e localização
+
+A seção de especialidades foi detalhada com seis áreas e ícones representativos: Psicologia, Nutrição, Fonoaudiologia, Psicopedagogia, TEA e Autismo e Podologia. Cada card agora lista serviços associados e encaminha o interesse para o WhatsApp.
+
+O rodapé foi ampliado com Instagram, WhatsApp, link de como chegar e horário de funcionamento de segunda a sexta-feira, das 08h às 17h, com aviso para confirmar a agenda.
+
+A localização recebeu endereço completo, link externo para o Google Maps e mapa interativo incorporado do Google Maps, com layout responsivo. TypeScript, build e revisões desktop/mobile foram aprovados.

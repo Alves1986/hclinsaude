@@ -26,3 +26,10 @@
 - [x] Remover a imagem da seção de convênios.
 - [x] Implementar carrossel horizontal looping com os convênios.
 - [x] Validar pausa, responsividade, acessibilidade e build.
+
+## Nova evolução institucional
+
+- [x] Adicionar links das redes sociais e horário de funcionamento no rodapé.
+- [x] Criar seção detalhada de especialidades e serviços com ícones representativos.
+- [x] Criar seção de localização com endereço completo e mapa interativo do Google Maps.
+- [x] Validar links, mapa, responsividade, acessibilidade e build.

@@ -86,3 +86,9 @@
 
 - [x] Reduzir a altura do mapa e harmonizar sua proporção com o bloco de endereço.
 - [x] Validar interatividade, desktop, mobile e build após o ajuste.
+
+## Ajuste da navegação com header fixo
+
+- [x] Corrigir o offset das âncoras para evitar que o header cubra os títulos das seções.
+- [x] Validar links do cabeçalho e menu mobile em diferentes tamanhos de tela.
+- [x] Confirmar build e rolagem suave após o ajuste.

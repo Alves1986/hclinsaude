@@ -100,3 +100,7 @@ As fotos das profissionais agora exibem um placeholder shimmer enquanto carregam
 ## Refinamento do mapa — 20/08/2026
 
 A seção de localização foi harmonizada com um mapa mais compacto: largura máxima de 1080px, altura de 280px no mobile, 320px em telas intermediárias e 360px no desktop. O iframe do Google Maps continua interativo e com lazy loading. TypeScript, build e revisão visual foram concluídos.
+
+## Navegação com header fixo — 20/08/2026
+
+O deslocamento das âncoras foi ajustado de 88px para 104px e aplicado também como `scroll-margin-top` nas seções com ID. A navegação para Localização foi verificada no navegador: o conteúdo da seção inicia abaixo do header, sem sobreposição do título pela barra fixa.

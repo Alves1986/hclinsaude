@@ -9,7 +9,7 @@ export default function Privacy() {
       <header className="border-b border-[#17313a]/10 bg-[#f7f4ed]/90 px-5 py-5 backdrop-blur-xl lg:px-10">
         <div className="mx-auto flex max-w-[1040px] items-center justify-between gap-4">
           <a href="/" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.16em] text-[#0f4c5c] transition hover:text-[#9d8152]"><ArrowLeft size={15} /> Voltar para a HCLIN</a>
-          <img src="/manus-storage/hclin-mark_6bbd5686.png" alt="Símbolo H+ da HCLIN" className="h-10 w-10 object-contain" />
+          <img src="/assets/hclin/mark.png" alt="Símbolo H+ da HCLIN" className="h-10 w-10 object-contain" />
         </div>
       </header>
 

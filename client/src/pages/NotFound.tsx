@@ -7,7 +7,7 @@ export default function NotFound() {
       <div className="absolute -right-24 -top-24 h-80 w-80 rounded-full border border-[#c7a96b]/45" />
       <div className="absolute -bottom-28 -left-20 h-72 w-72 rounded-full border border-[#0f4c5c]/20" />
       <div className="relative w-full max-w-xl rounded-[32px] border border-[#17313a]/10 bg-[#f7f4ed]/85 p-8 text-center shadow-[0_24px_80px_rgba(23,49,58,.10)] backdrop-blur sm:p-12">
-        <img src="/manus-storage/hclin-mark_6bbd5686.png" alt="Símbolo H+" className="mx-auto h-16 w-16 object-contain" />
+        <img src="/assets/hclin/mark.png" alt="Símbolo H+" className="mx-auto h-16 w-16 object-contain" />
         <p className="mt-7 text-[10px] font-bold uppercase tracking-[0.28em] text-[#9d8152]">HCLIN / caminho não encontrado</p>
         <h1 className="mt-5 font-display text-6xl leading-none tracking-[-0.05em] text-[#0f4c5c]">Vamos voltar?</h1>
         <p className="mx-auto mt-5 max-w-sm text-sm leading-7 text-[#17313a]/65">Esta página não está disponível, mas o cuidado continua por perto. Retorne ao início ou fale com a clínica.</p>

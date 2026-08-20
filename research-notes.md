@@ -116,3 +116,7 @@ A hero foi reposicionada para subir o conteúdo e ocupar melhor a altura útil d
 ## Favicon e deploy Vercel — 20/08/2026
 
 O símbolo H+ foi convertido para um favicon PNG leve em `client/public/favicon.png` e referenciado no `client/index.html`. Foi criado `vercel.json` com framework Vite, `pnpm vite build`, saída `dist/public` e rewrite para `index.html`, evitando que a Vercel tente servir ou executar `server/index.ts`. `pnpm check` e o build estático foram validados; `dist/public/favicon.png` e `dist/public/index.html` estão presentes.
+
+## Assets compatíveis com Vercel — 20/08/2026
+
+As imagens da hero, sala, padrão, logo e equipe deixaram de depender de `/manus-storage`. Foram geradas cópias WebP/PNG otimizadas em `client/public/assets/hclin`, e todas as páginas passaram a usar caminhos locais `/assets/hclin/...`. O build confirmou os 12 assets em `dist/public/assets/hclin`; não restaram referências `/manus-storage` no código-fonte.

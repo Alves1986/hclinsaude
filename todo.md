@@ -130,3 +130,10 @@
 - [x] Adicionar favicon com o símbolo H+ da clínica.
 - [x] Configurar o build estático para a Vercel usar `dist/public` e não o servidor Express.
 - [x] Validar build, favicon, rotas e enviar a correção ao GitHub.
+
+## Assets para Vercel
+
+- [x] Mapear referências `/manus-storage` usadas pela página e localizar os arquivos originais.
+- [x] Criar cópias otimizadas em um caminho servido pela própria Vercel.
+- [x] Substituir as referências de imagens e validar todas as rotas e imagens no build.
+- [ ] Enviar a correção ao GitHub e confirmar o commit remoto.

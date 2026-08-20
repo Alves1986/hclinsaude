@@ -69,3 +69,17 @@
 @media (prefers-reduced-motion: reduce) {
   .cookie-consent-enter { animation: none; }
 }
+
+/* HCLIN / Equipe: o modal entra com escala e deslocamento discretos; sem animação para quem prefere movimento reduzido. */
+@keyframes hclin-modal-in {
+  from { opacity: 0; transform: translateY(16px) scale(.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.animate-modal-in {
+  animation: hclin-modal-in 260ms cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-modal-in { animation: none; }
+}

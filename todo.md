@@ -68,3 +68,10 @@
 - [x] Remover textos, selos e informações sobrepostas preservando rostos, poses, fundo e identidade HCLIN.
 - [x] Substituir os assets no armazenamento do projeto e atualizar referências se necessário.
 - [x] Validar a seção de equipe em desktop, mobile e build.
+
+## Interação com a equipe
+
+- [x] Adicionar zoom suave nas fotos das profissionais com suporte a movimento reduzido.
+- [x] Tornar os cards da equipe clicáveis e abrir modal acessível com foco e fechamento por teclado.
+- [x] Exibir biografia e horários confirmados; usar “a confirmar” onde a clínica ainda não forneceu dados oficiais.
+- [x] Validar modal em desktop/mobile, foco, fechamento, WhatsApp e build.

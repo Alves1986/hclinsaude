@@ -88,3 +88,7 @@ A rota `/privacidade` carregou corretamente com título, seções de cookies ess
 ## Limpeza visual dos retratos da equipe — 20/08/2026
 
 Oito retratos foram editados para remover textos, selos, telefones, endereços e elementos gráficos sobrepostos, preservando os rostos, poses, roupas, iluminação e identidade visual dos retratos. Os novos assets foram enviados ao armazenamento persistente e as referências da equipe foram atualizadas. A seção foi revisada em desktop e mobile; os cards exibem retratos limpos, sem tipografia incorporada nas imagens. TypeScript e build foram aprovados.
+
+## Modal e interação da equipe — 20/08/2026
+
+Os cards da equipe agora aparecem como elementos clicáveis com indicação “Ver perfil”, foco visível e zoom suave na foto ao passar o mouse ou focar pelo teclado. O navegador confirmou a abertura do modal com retrato, nome, função, biografia, horário de atendimento e CTA para WhatsApp. O modal pode ser fechado pelo botão de fechar, pelo clique fora do conteúdo e pela tecla Escape; a rolagem do body é bloqueada enquanto ele está aberto.

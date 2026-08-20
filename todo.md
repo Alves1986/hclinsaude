@@ -33,3 +33,10 @@
 - [x] Criar seção detalhada de especialidades e serviços com ícones representativos.
 - [x] Criar seção de localização com endereço completo e mapa interativo do Google Maps.
 - [x] Validar links, mapa, responsividade, acessibilidade e build.
+
+## Engajamento e navegação
+
+- [x] Refinar o hover dos cards de especialidades para destacar serviço e CTA.
+- [x] Criar seção de Dicas de Saúde com orientações gerais e aviso educativo.
+- [x] Adicionar botão Voltar ao topo com aparição durante a rolagem e suporte acessível.
+- [x] Validar responsividade, teclado, movimento reduzido e build.

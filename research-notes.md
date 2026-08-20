@@ -68,3 +68,7 @@ A seção de especialidades foi detalhada com seis áreas e ícones representati
 O rodapé foi ampliado com Instagram, WhatsApp, link de como chegar e horário de funcionamento de segunda a sexta-feira, das 08h às 17h, com aviso para confirmar a agenda.
 
 A localização recebeu endereço completo, link externo para o Google Maps e mapa interativo incorporado do Google Maps, com layout responsivo. TypeScript, build e revisões desktop/mobile foram aprovados.
+
+## Engajamento e navegação — 20/08/2026
+
+Os cards de especialidades receberam hover mais expressivo com elevação, borda champagne, sombra ampliada e barra superior animada, mantendo leitura clara em mobile. A nova seção de Dicas de Saúde apresenta quatro orientações gerais com ícones e aviso de que o conteúdo não substitui avaliação profissional. O botão Voltar ao topo aparece após a rolagem, usa rolagem suave, tem rótulo acessível e fica separado do botão flutuante do WhatsApp. A navegação recebeu o link Dicas no desktop e no menu mobile. TypeScript, build e revisões desktop/mobile foram aprovados.

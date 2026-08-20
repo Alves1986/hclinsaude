@@ -92,3 +92,9 @@
 - [x] Corrigir o offset das âncoras para evitar que o header cubra os títulos das seções.
 - [x] Validar links do cabeçalho e menu mobile em diferentes tamanhos de tela.
 - [x] Confirmar build e rolagem suave após o ajuste.
+
+## Sincronização com GitHub
+
+- [ ] Verificar o repositório remoto Alves1986/hclinsaude e a branch padrão.
+- [ ] Criar commit com a versão atual do projeto.
+- [ ] Enviar o commit para o GitHub e confirmar a referência remota.
